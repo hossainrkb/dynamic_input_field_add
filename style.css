@@ -1,0 +1,75 @@
+.add_field_button {
+    background: hsla(204, 84%, 61%, 0.88);
+    float: right;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+.main_content {
+    display: flex;
+    justify-content: center;
+}
+
+.main_content>div {
+    margin: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 5px;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #4499F9!important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    box-shadow: 0px 0px 0px 0px #4499F9;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 10px;
+    border: 1px solid #4499F9;
+    border-radius: 15px;
+    background: #4499F9;
+    color: #FFFFFF;
+}
+
+.add_field_button:hover {
+    background: hsla(145, 100%, 36%, 0.88);
+    transition: 0.3s ease;
+    transform: skewX(-20deg)
+}
+
+.remove_field:hover {
+    transition: 0.3s ease;
+    transform: skewX(-20deg)
+}
+
+input[type]:focus {
+    border: 2px solid #4499F9;
+}
+
+.submit_div{
+    text-align: center;
+}
+
+.submit {
+    background: #ff9d00;
+    border: 2px solid #ff9d00;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #f94498;
+    border: 2px solid #f94498;
+}
