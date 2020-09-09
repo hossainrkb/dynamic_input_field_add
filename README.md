@@ -3,6 +3,6 @@
 
 ![initial Image](initial.PNG)
 
-> Generate auto output based on their basic.
+> What it turn out to be !
 
 ![turned out to be Image](after.PNG)
