@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .add_field_button {
     background: hsla(204, 84%, 61%, 0.88);
     float: right;
@@ -21,12 +25,12 @@
 
 input[type="text"], input[type="email"], input[type="password"] {
     padding: 5px;
+    border:none;
+    border-bottom: 1px dotted;
 }
 
 fieldset.scheduler-border {
     border: 1px groove #4499F9!important;
-    padding: 0 1.4em 1.4em 1.4em !important;
-    margin: 0 0 1.5em 0 !important;
     box-shadow: 0px 0px 0px 0px #4499F9;
 }
 
@@ -54,7 +58,7 @@ legend.scheduler-border {
 }
 
 input[type]:focus {
-    border: 2px solid #4499F9;
+    border-bottom: 2px solid #4499F9;
 }
 
 .submit_div{
@@ -73,3 +77,22 @@ input[type]:focus {
     background: #f94498;
     border: 2px solid #f94498;
 }
+
+ @media screen and (max-width: 1100px) {
+     .main_content {
+         display: block;
+         text-align: center;  
+     }
+     .main_content>div {
+         margin: 15px 15px 15px 15px
+     }
+     fieldset {
+       width:93%;
+       margin-left: 10px;
+     }
+     input[type="text"],
+     input[type="email"],
+     input[type="password"] {
+         padding: -10px;
+     }
+ }
