@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dynamically_multiple field added</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/select2.min.css">
 </head>
 
 <body>
@@ -28,6 +29,14 @@
                             <div>
                                 <input type="password" placeholder="Enter Your Password">
                             </div>
+                            <div>
+                                <select name="" id="" class="js-example-basic-multiple" multiple>
+                                    <option value="">data1</option>
+                                    <option value="">data2</option>
+                                    <option value="">data3</option>
+                                    <option value="">data4</option>
+                                </select>
+                            </div>
                         </div>
                     </fieldset>
                 </div>
@@ -45,6 +54,12 @@
     </form>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/custom_js.js"></script>
+    <script src="./js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.js-example-basic-multiple').select2();
+        });
+    </script>
 </body>
 
 </html>
