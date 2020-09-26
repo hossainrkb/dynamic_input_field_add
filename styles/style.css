@@ -96,3 +96,6 @@ input[type]:focus {
          padding: -10px;
      }
  }
+ .js-example-basic-multiple{
+     width: 200px;
+ }
