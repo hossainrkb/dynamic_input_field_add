@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
 
     $(wrapper).on("click", ".remove_field", function (e) {
-        e.preventDefault();dsfsdfdfdfd
+        e.preventDefault();
         $(this).prev('div').remove();
         $(this).remove();
         x--;
