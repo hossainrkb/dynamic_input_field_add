@@ -9,8 +9,10 @@ $(document).ready(function () {
         e.preventDefault();
         if (x < max_fields) {
             x++;
+            all_set.find($(".js-example-basic-multiple")).select2("destroy");
             var remove_button = '<button class = remove_field style=float:right;margin-bottom:5px;color:white;background:#ff1f6b;cursor:pointer;border:solid #ff1f6b;>Remove Field</button><div style="clear:both;"></div>'
             $(wrapper).append(all_set.html(), remove_button);
+            $(".js-example-basic-multiple").select2();
         }
     });
 
